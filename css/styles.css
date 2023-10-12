@@ -1,0 +1,173 @@
+body {
+  font-family: 'Roboto', 'Raleway' sans-serif;
+  background: #f4f4fd;
+  color: #2e2f42;
+}
+
+.order-service-btn {
+  cursor: pointer;
+  font-family: inherit;
+  display: inline-flex;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: #4d5ae5;
+}
+
+button {
+  border-radius: 4px;
+  background: #4d5ae5;
+  font-family: inherit;
+}
+
+/* ============== HEADER ============== */
+
+.logotype-link {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #2e2f42;
+}
+
+.top-second {
+  color: #2e2f42;
+}
+
+.logotype-link .footer-logo {
+  color: #f4f4fd;
+}
+
+.menu-item link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contact-link {
+  color: #434455;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02;
+}
+
+/* ============== HERO STYLES ============== */
+
+.hero-section {
+  background: #2e2f42;
+}
+
+.main-title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.order-service-btn {
+  color: #ffffff;
+  /* Button Text */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+/* ============== SECTION ADVANTAGES ============== */
+.advantages-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.adventages-description {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* ============== OUR TEAM ============== */
+.team-section {
+  color: #f4f4fd;
+}
+
+.info-card {
+  background-color: #ffffff;
+}
+
+.team-section-name,
+.portfolio-section-name {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-person {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02;
+}
+
+.member-position {
+  color: #434455;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02;
+}
+
+/* ============== OUR PORTFOLIO ============== */
+.usage {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.use-way {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ============== FOOTER ============== */
+.footer-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+
+.footer-content {
+  background: #2e2f42;
+}
+
+.logotype-link {
+  color: #4d5ae5;
+}
+.span-style {
+  color: #f4f4fd;
+}
