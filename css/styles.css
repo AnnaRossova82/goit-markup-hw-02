@@ -10,6 +10,11 @@ body {
   display: inline-flex;
 }
 
+.order-service-btn:hover,
+.order-service-btn:focus {
+  color: #404bbf;
+}
+
 .list {
   list-style-type: none;
 }
@@ -20,7 +25,7 @@ body {
 
 .link:hover,
 .link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 button {
@@ -32,10 +37,10 @@ button {
 /* ============== HEADER ============== */
 
 .logotype-link {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
@@ -57,6 +62,10 @@ button {
   letter-spacing: 0.02em;
 }
 
+.contacts {
+  font-style: normal;
+}
+
 .contact-link {
   color: #434455;
   font-size: 16px;
@@ -73,6 +82,7 @@ button {
 
 .main-title {
   color: #ffffff;
+  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -88,6 +98,11 @@ button {
   letter-spacing: 0.04em;
 }
 /* ============== SECTION ADVANTAGES ============== */
+
+.advanteges {
+  background-color: #f4f4fd;
+}
+
 .advantages-name {
   font-size: 20px;
   font-weight: 500;
@@ -165,5 +180,5 @@ button {
   color: #4d5ae5;
 }
 .span-style {
-  color: #f4f4fd;
+  color: #2e2f42;
 }
