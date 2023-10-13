@@ -70,6 +70,22 @@ button {
   color: #404bbf;
 }
 
+.contact-list-item {
+  color: #434455;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02;
+}
+
+.menu-list-names {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .contacts {
   font-style: normal;
   letter-spacing: 0.02em;
@@ -142,6 +158,10 @@ button {
 }
 
 .member-info {
+  background-color: FFFFFF;
+}
+
+.use-way {
   background-color: FFFFFF;
 }
 
