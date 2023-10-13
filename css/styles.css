@@ -7,7 +7,6 @@ body {
 .order-service-btn {
   cursor: pointer;
   font-family: inherit;
-  display: inline-flex;
 }
 
 .order-service-btn:hover,
