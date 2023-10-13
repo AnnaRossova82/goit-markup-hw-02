@@ -60,10 +60,22 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.menu-item:hover,
+.menu-item:focus {
+  color: #404bbf;
 }
 
 .contacts {
   font-style: normal;
+  letter-spacing: 0.02em;
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: #404bbf;
 }
 
 .contact-link {
@@ -97,10 +109,16 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
+
+.order-service-btn:hover,
+.order-service-btn:focus {
+  color: #404bbf;
+}
 /* ============== SECTION ADVANTAGES ============== */
 
 .advanteges {
   background-color: #f4f4fd;
+  color: #2e2f42;
 }
 
 .advantages-name {
@@ -118,7 +136,7 @@ button {
 }
 /* ============== OUR TEAM ============== */
 .team-section {
-  color: #f4f4fd;
+  background-color: #f4f4fd;
 }
 
 .info-card {
@@ -129,17 +147,19 @@ button {
 .portfolio-section-name {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
 }
 
 .team-person {
-  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02;
+  color: #2e2f42;
 }
 
 .member-position {
@@ -154,8 +174,10 @@ button {
 .usage {
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .use-way {
   color: #434455;
@@ -168,7 +190,7 @@ button {
 .footer-text {
   color: #f4f4fd;
   font-size: 16px;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -178,6 +200,8 @@ button {
 
 .logotype-link {
   color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.17;
 }
 .span-style {
   color: #2e2f42;
