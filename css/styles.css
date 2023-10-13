@@ -28,7 +28,6 @@ body {
 }
 
 button {
-  border-radius: 4px;
   background: #4d5ae5;
   font-family: inherit;
 }
@@ -155,6 +154,10 @@ button {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  background-color: FFFFFF;
+}
+
+.team-members {
   background-color: FFFFFF;
 }
 
