@@ -55,7 +55,7 @@ button {
   color: #f4f4fd;
 }
 
-.menu-item link {
+.menu-list {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -112,7 +112,7 @@ button {
 
 .order-service-btn:hover,
 .order-service-btn:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 /* ============== SECTION ADVANTAGES ============== */
 
@@ -126,6 +126,7 @@ button {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .adventages-description {
@@ -158,8 +159,9 @@ button {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   color: #2e2f42;
+  background-color: #ffffff;
 }
 
 .member-position {
@@ -167,10 +169,16 @@ button {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
+  background-color: #ffffff;
 }
 
 /* ============== OUR PORTFOLIO ============== */
+
+.portfolio-section-name {
+  line-height: 1.2;
+}
+
 .usage {
   font-size: 20px;
   font-weight: 500;
@@ -203,6 +211,6 @@ button {
   font-family: 'Raleway', sans-serif;
   line-height: 1.17;
 }
-.span-style {
-  color: #2e2f42;
+.span-foot {
+  color: #f4f4fd;
 }
