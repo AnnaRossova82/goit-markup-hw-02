@@ -46,20 +46,16 @@ button {
   color: #2e2f42;
 }
 
-.top-second {
+.span-color {
   color: #2e2f42;
 }
 
-.logotype-link .footer-logo {
-  color: #f4f4fd;
-}
-
-.menu-list {
+.menu-item {
+  color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .menu-item:hover,
@@ -139,10 +135,6 @@ button {
   background-color: #f4f4fd;
 }
 
-.info-card {
-  background-color: #ffffff;
-}
-
 .team-section-name,
 .portfolio-section-name {
   font-size: 36px;
@@ -152,6 +144,7 @@ button {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  background-color: #ffffff;
 }
 
 .team-person {
@@ -174,7 +167,7 @@ button {
 
 /* ============== OUR PORTFOLIO ============== */
 
-.portfolio-section-name {
+.portfolio-section-named {
   line-height: 1.2;
 }
 
