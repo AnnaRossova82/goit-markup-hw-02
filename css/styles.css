@@ -49,20 +49,13 @@ button {
   color: #2e2f42;
 }
 
-.menu-list {
+.menu-list-names .menu-list .menu-item {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-.menu-item {
-  color: #2e2f42;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  list-style-type: none;
 }
 
 .menu-item:hover,
@@ -78,7 +71,12 @@ button {
   letter-spacing: 0.02;
 }
 
-.contact-list-item {
+.contacts-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+
+.contact-link {
   color: #434455;
   font-size: 16px;
   font-style: normal;
@@ -97,19 +95,6 @@ button {
 .contacts {
   font-style: normal;
   letter-spacing: 0.02em;
-}
-
-.contacts-link:hover,
-.contact-link:focus {
-  color: #404bbf;
-}
-
-.contact-link {
-  color: #434455;
-  font-size: 16px;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 0.02;
 }
 
 /* ============== HERO STYLES ============== */
