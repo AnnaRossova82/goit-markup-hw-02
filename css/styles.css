@@ -141,6 +141,14 @@ button {
 .order-service-btn:focus {
   background-color: #404bbf;
 }
+
+.team-person,
+.member-position,
+.member-info,
+.team-members {
+  background-color: #ffffff;
+}
+
 /* ============== SECTION ADVANTAGES ============== */
 
 .advanteges {
