@@ -99,8 +99,8 @@ button {
   letter-spacing: 0.02em;
 }
 
-.contacts:hover,
-.contacts:focus {
+.contacts-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
 
@@ -165,14 +165,6 @@ button {
   background-color: #f4f4fd;
 }
 
-.member-info {
-  background-color: FFFFFF;
-}
-
-.use-way {
-  background-color: FFFFFF;
-}
-
 .team-section-name,
 .portfolio-section-name {
   font-size: 36px;
@@ -185,7 +177,10 @@ button {
   background-color: FFFFFF;
 }
 
-.team-members {
+.team-members,
+.member-info,
+.use-way,
+.team-person {
   background-color: FFFFFF;
 }
 
@@ -205,10 +200,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   background-color: FFFFFF;
-
-  .member-info {
-    background-color: FFFFFF;
-  }
 }
 
 /* ============== OUR PORTFOLIO ============== */
